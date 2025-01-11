@@ -38,7 +38,7 @@ npm run build
 npm run lint
 ```
 
-### Encription
+### Encryption
 
 ```
 node encryptQuestions.js 
