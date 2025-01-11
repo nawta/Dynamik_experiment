@@ -1,20 +1,22 @@
 # vue_jspsych_test
 
-jsPsych 7.3.4
+## Requirement
+- jsPsych 7.3.4
 
-## 工夫点
-ハッキング対策と，説明性向上（UIの色，緑good 赤bad，ユニバーサルカラー）
-暗号化
-- シーザー暗号，文字列の分割と連結，XOR暗号
-- 難読化ライブラリ
-- 変数を変更するライブラリ
-Vue
-- ビルド時のディレクトリ構成とデプロイのディレクトリ構成が違う
+## Features for crowdsourcing
+- Security Enhancements (Anti-Hacking Measures)
+  - Data Encryption:
+    - Implemented Caesar cipher, string splitting and concatenation, and XOR encryption for layered security.
+    - Utilized obfuscation libraries to make the code harder to reverse-engineer.
+    - Applied variable renaming libraries to further complicate code analysis.
+- Improved Explainability and UI Design
+  - Color-Coded Feedback:
+    - Incorporated intuitive color schemes (green for "good," red for "bad") to enhance user understanding.
+    - Applied universal design principles by selecting colorblind-friendly palettes to improve accessibility.
+- Development and Deployment Optimization (Vue.js)
+  - Addressed discrepancies between the build directory structure and the deployment directory structure to streamline the deployment process.
 
 
-```
-node encryptQuestions.js 
-```
 
 ## Project setup
 ```
@@ -34,6 +36,12 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+### Encription
+
+```
+node encryptQuestions.js 
 ```
 
 ### Customize configuration
