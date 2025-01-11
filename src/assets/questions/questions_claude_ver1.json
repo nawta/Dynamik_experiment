@@ -1,0 +1,566 @@
+{
+    "toefl": {
+      "audio": "audio/debug.mp3",
+      "questions": [
+        {
+          "prompt": "Why does the man go to see his professor?",
+          "options": [
+            "To borrow some charts and graphs from her",
+            "To ask her to explain some statistical procedures",
+            "To talk about a report he is writing",
+            "To discuss a grade he got on a paper"
+          ],
+          "correct_answer": "To talk about a report he is writing",
+          "multiple": false
+        },
+        {
+          "prompt": "What information will the man include in his report? (Select all that apply)",
+          "options": [
+            "Climate charts",
+            "Interviews with meteorologists",
+            "Journal notes",
+            "Statistical tests"
+          ],
+          "correct_answer": ["Climate charts", "Journal notes", "Statistical tests"],
+          "multiple": true
+        },
+        {
+          "prompt": "Why does the professor tell the man about the appointment at the doctor's office?",
+          "options": [
+            "To demonstrate a way of remembering things",
+            "To explain why she needs to leave soon",
+            "To illustrate a point that appears in his report",
+            "To emphasize the importance of good health"
+          ],
+          "correct_answer": "To demonstrate a way of remembering things",
+          "multiple": false
+        },
+        {
+          "prompt": "What does the professor offer to do for the man?",
+          "options": [
+            "Help him collect more data in other areas of the state",
+            "Submit his research findings for publication",
+            "Give him the doctor's telephone number",
+            "Review the first version of his report"
+          ],
+          "correct_answer": "Review the first version of his report",
+          "multiple": false
+        },
+        {
+          "prompt": "Why does the professor say ''I hope you can recognize by my saying that how much you do know about the subject.''",
+          "options": [
+            "To question the length of the paper",
+            "To offer encouragement",
+            "To dispute the data source",
+            "To explain a theory"
+          ],
+          "correct_answer": "To offer encouragement",
+          "multiple": false
+        },
+        {
+          "prompt": "What was the specific focus of the man's research project?",
+          "options": [
+            "Urban heat islands",
+            "Climate variations in the Grand City area",
+            "Global warming trends",
+            "Seasonal weather patterns"
+          ],
+          "correct_answer": "Climate variations in the Grand City area",
+          "multiple": false
+        },
+        {
+          "prompt": "What advice does the professor give about explaining the research?",
+          "options": [
+            "Use technical jargon to sound more professional",
+            "Explain it as if talking to someone with casual knowledge, like parents",
+            "Focus only on the statistical analysis",
+            "Omit any personal observations from the report"
+          ],
+          "correct_answer": "Explain it as if talking to someone with casual knowledge, like parents",
+          "multiple": false
+        },
+        {
+          "prompt": "What tool does the professor mention for managing memory?",
+          "options": [
+            "A voice recorder",
+            "A smartphone app",
+            "A little notepad",
+            "A daily planner"
+          ],
+          "correct_answer": "A little notepad",
+          "multiple": false
+        },
+        {
+          "prompt": "How many questions did the professor prepare for her doctor's appointment?",
+          "options": [
+            "Three",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "correct_answer": "Five",
+          "multiple": false
+        },
+        {
+          "prompt": "What additional data did the man include in his report beyond the immediate Grand City area?",
+          "options": [
+            "National climate data",
+            "Global climate trends",
+            "Historical weather patterns",
+            "Regional data"
+          ],
+          "correct_answer": "Regional data",
+          "multiple": false
+        }
+      ]
+    },
+    "cnn_videos": {
+      "conditions": [
+        "normal",
+        "keyword",
+        "rubato"
+      ],
+      "videos": [
+        {
+          "number": 1,
+          "questions": [
+            {
+              "prompt": "According to the WWF report, by how much has global wildlife decreased in less than half a century?",
+              "options": ["About 40%", "About 60%", "About 75%", "About 90%"],
+              "correct_answer": "About 60%"
+            },
+            {
+              "prompt": "Over how many years has the elephant population decreased by one-fifth, according to the report?",
+              "options": ["5 years", "10 years", "15 years", "20 years"],
+              "correct_answer": "10 years"
+            },
+            {
+              "prompt": "What fraction of sharks and rays are threatened by overfishing?",
+              "options": ["One-fourth", "One-third", "Half", "Two-thirds"],
+              "correct_answer": "One-third"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "questions": [
+            {
+              "prompt": "Which company has opened this new type of store without checkout counters?",
+              "options": ["Walmart", "Target", "Amazon", "Costco"],
+              "correct_answer": "Amazon"
+            },
+            {
+              "prompt": "What do customers use to 'check in' when entering the store?",
+              "options": ["Fingerprint recognition", "Facial recognition", "Smartphone app", "Membership card"],
+              "correct_answer": "Smartphone app"
+            },
+            {
+              "prompt": "What is the main feature of this store?",
+              "options": ["All organic products", "No checkout counters", "24-hour operation", "Robot staff for customer service"],
+              "correct_answer": "No checkout counters"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "questions": [
+            {
+              "prompt": "Where did this mushroom cloud appear?",
+              "options": ["Eastern Siberia", "Western Siberia", "Northern Siberia", "Southern Siberia"],
+              "correct_answer": "Western Siberia"
+            },
+            {
+              "prompt": "What did many people fear when they called emergency services?",
+              "options": ["Forest fire", "Meteor strike", "Nuclear attack", "Volcanic eruption"],
+              "correct_answer": "Nuclear attack"
+            },
+            {
+              "prompt": "What was the actual cause of this cloud formation?",
+              "options": ["Factory emissions", "Thunderstorm causing clouds to be blown sideways", "Military exercise", "Meteor impact"],
+              "correct_answer": "Thunderstorm causing clouds to be blown sideways"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "questions": [
+            {
+              "prompt": "According to UNICEF, how many children under the age of five die every year from pollution-related illnesses?",
+              "options": ["About 200,000", "About 400,000", "About 600,000", "About 800,000"],
+              "correct_answer": "About 600,000"
+            },
+            {
+              "prompt": "How many children live in areas where pollution levels exceed WHO guidelines?",
+              "options": ["About 500 million", "About 1 billion", "About 1.5 billion", "About 2 billion"],
+              "correct_answer": "About 2 billion"
+            },
+            {
+              "prompt": "What is mentioned as a main cause of indoor air pollution?",
+              "options": ["Keeping pets", "Using wood and coal for cooking and heating", "Using plastic products", "Using pesticides"],
+              "correct_answer": "Using wood and coal for cooking and heating"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "questions": [
+            {
+              "prompt": "After which president's election did the demand for contraceptives increase?",
+              "options": ["Barack Obama", "Donald Trump", "Joe Biden", "George W. Bush"],
+              "correct_answer": "Donald Trump"
+            },
+            {
+              "prompt": "What type of contraceptive saw a particularly high increase in demand?",
+              "options": ["Pills", "Condoms", "Long-acting contraceptives (such as IUDs)", "Contraceptive patches"],
+              "correct_answer": "Long-acting contraceptives (such as IUDs)"
+            },
+            {
+              "prompt": "How were contraceptives provided under Obamacare?",
+              "options": ["Fully paid by patients", "Partially paid by patients", "Without co-payment", "Depending on the type of insurance"],
+              "correct_answer": "Without co-payment"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "questions": [
+            {
+              "prompt": "What is the name of the event held by LinkedIn?",
+              "options": ["Bring Your Kids to Work Day", "Bring Your Parents Day", "Family Office Day", "LinkedIn Family Event"],
+              "correct_answer": "Bring Your Parents Day"
+            },
+            {
+              "prompt": "According to LinkedIn, what fraction of parents cannot describe their children's jobs?",
+              "options": ["One-fourth", "One-third", "Half", "Two-thirds"],
+              "correct_answer": "One-third"
+            },
+            {
+              "prompt": "What generational change is mentioned as the background for this event?",
+              "options": ["Decreased independence of children", "Weakening of parent-child relationships", "Diversification and flexibility of jobs", "Deterioration of workplace environments"],
+              "correct_answer": "Diversification and flexibility of jobs"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "questions": [
+            {
+              "prompt": "What is the name of the newly added element?",
+              "options": ["Japanium", "Tokyonium", "Nihonium", "Asianium"],
+              "correct_answer": "Nihonium"
+            },
+            {
+              "prompt": "What is the nationality of the researcher who discovered this element?",
+              "options": ["Chinese", "Korean", "Japanese", "Indian"],
+              "correct_answer": "Japanese"
+            },
+            {
+              "prompt": "In which row of the periodic table is 'Nihonium' located?",
+              "options": ["5th row", "6th row", "7th row", "8th row"],
+              "correct_answer": "7th row"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "questions": [
+            {
+              "prompt": "Which country ranked first in science skills for 10-year-olds?",
+              "options": ["Japan", "South Korea", "Singapore", "Finland"],
+              "correct_answer": "Singapore"
+            },
+            {
+              "prompt": "How often is this ranking conducted?",
+              "options": ["Every 2 years", "Every 3 years", "Every 4 years", "Every 5 years"],
+              "correct_answer": "Every 4 years"
+            },
+            {
+              "prompt": "Which is the only European country to make it into the top 5?",
+              "options": ["Germany", "France", "United Kingdom", "Finland"],
+              "correct_answer": "Finland"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "questions": [
+            {
+              "prompt": "Where did the man with a gun go?",
+              "options": ["A school", "A government agency", "A pizza shop", "A bank"],
+              "correct_answer": "A pizza shop"
+            },
+            {
+              "prompt": "Who was falsely accused in the fake news story?",
+              "options": ["Donald Trump", "Barack Obama", "Hillary Clinton", "Joe Biden"],
+              "correct_answer": "Hillary Clinton"
+            },
+            {
+              "prompt": "What was the fake news story about?",
+              "options": ["Election fraud", "Child sex trafficking ring", "Money laundering", "Espionage activities"],
+              "correct_answer": "Child sex trafficking ring"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "questions": [
+            {
+              "prompt": "When were Fast Radio Bursts (FRBs) first discovered?",
+              "options": ["2005", "2007", "2009", "2011"],
+              "correct_answer": "2007"
+            },
+            {
+              "prompt": "Where was the source of the FRB identified?",
+              "options": ["Within the Milky Way", "Andromeda Galaxy", "A small galaxy 3 billion light-years away", "An exoplanet"],
+              "correct_answer": "A small galaxy 3 billion light-years away"
+            },
+            {
+              "prompt": "In which constellation was the FRB discovered?",
+              "options": ["Orion", "Taurus", "Auriga", "Scorpius"],
+              "correct_answer": "Auriga"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "questions": [
+            {
+              "prompt": "In which category did Bob Dylan win the Nobel Prize?",
+              "options": ["Peace", "Literature", "Music", "Economics"],
+              "correct_answer": "Literature"
+            },
+            {
+              "prompt": "What was cited as the reason for Dylan's award?",
+              "options": ["Contributions to anti-war efforts", "Creating new poetic expressions within the American song tradition", "Innovative contributions to the music industry", "Activities for social justice"],
+              "correct_answer": "Creating new poetic expressions within the American song tradition"
+            },
+            {
+              "prompt": "Which of Bob Dylan's famous songs was mentioned in the news?",
+              "options": ["Like a Rolling Stone", "Mr. Tambourine Man", "Blowin' in the Wind", "Knockin' on Heaven's Door"],
+              "correct_answer": "Blowin' in the Wind"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "questions": [
+            {
+              "prompt": "In which year were the Van Gogh paintings stolen?",
+              "options": ["2000", "2002", "2004", "2006"],
+              "correct_answer": "2002"
+            },
+            {
+              "prompt": "Where is the museum from which the paintings were stolen?",
+              "options": ["Paris", "London", "Amsterdam", "New York"],
+              "correct_answer": "Amsterdam"
+            },
+            {
+              "prompt": "What is the estimated value of the stolen paintings?",
+              "options": ["About $10 million", "About $20 million", "About $30 million", "About $40 million"],
+              "correct_answer": "About $30 million"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "questions": [
+            {
+              "prompt": "What is the name of China's new stealth fighter?",
+              "options": ["J-10", "J-15", "J-20", "J-31"],
+              "correct_answer": "J-20"
+            },
+            {
+              "prompt": "At what event was this fighter jet unveiled?",
+              "options": ["Military parade", "Air show", "Technology exhibition", "UN General Assembly"],
+              "correct_answer": "Air show"
+            },
+            {
+              "prompt": "According to the Chinese Air Force spokesman, what is the main purpose of this fighter jet?",
+              "options": ["Space exploration", "Counter-terrorism operations", "Enhancing air force power in the Pacific region", "Improving civilian aviation technology"],
+              "correct_answer": "Enhancing air force power in the Pacific region"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "questions": [
+            {
+              "prompt": "Which organization released this report?",
+              "options": ["International Olympic Committee (IOC)", "World Anti-Doping Agency (WADA)", "United Nations", "FIFA"],
+              "correct_answer": "World Anti-Doping Agency (WADA)"
+            },
+            {
+              "prompt": "According to the report, how many Russian athletes were involved in the doping scheme?",
+              "options": ["About 500", "About 1000", "About 1500", "About 2000"],
+              "correct_answer": "About 1000"
+            },
+            {
+              "prompt": "How many sports were involved in this doping scheme?",
+              "options": ["More than 10", "More than 20", "More than 30", "More than 40"],
+              "correct_answer": "More than 30"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "questions": [
+            {
+              "prompt": "What sparked the debate about Emma Watson's feminism?",
+              "options": ["A movie poster", "A magazine cover photo", "A social media post", "An advertising campaign"],
+              "correct_answer": "A magazine cover photo"
+            },
+            {
+              "prompt": "What aspect of Emma Watson did critics criticize?",
+              "options": ["Her political statements", "Her lack of acting skills", "The contradiction between feminism and sexualization", "Her lack of charity work"],
+              "correct_answer": "The contradiction between feminism and sexualization"
+            },
+            {
+              "prompt": "According to Emma Watson, what is feminism about?",
+              "options": ["Superiority over men", "Protecting traditional values", "Women's freedom of choice", "Political movement"],
+              "correct_answer": "Women's freedom of choice"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "questions": [
+            {
+              "prompt": "Where did this incident occur?",
+              "options": ["Florida", "Texas", "California", "Georgia"],
+              "correct_answer": "Georgia"
+            },
+            {
+              "prompt": "What caused the boy to fall into a coma?",
+              "options": ["A car accident", "An illness", "A severe concussion while playing soccer", "A lightning strike"],
+              "correct_answer": "A severe concussion while playing soccer"
+            },
+            {
+              "prompt": "What did the coach suggest after the boy's recovery?",
+              "options": ["Quitting soccer", "Learning a new language", "Undergoing medical tests", "Wearing a helmet"],
+              "correct_answer": "Wearing a helmet"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "questions": [
+            {
+              "prompt": "What threat did 193 countries of the UN General Assembly agree to tackle?",
+              "options": ["Climate change", "Drug-resistant bacteria (superbugs)", "Cyberterrorism", "Food shortage"],
+              "correct_answer": "Drug-resistant bacteria (superbugs)"
+            },
+            {
+              "prompt": "What do the images from Harvard show?",
+              "options": ["The morphology of superbugs", "The process of bacterial mutation and spread", "The effects of new antibiotics", "The human immune response"],
+              "correct_answer": "The process of bacterial mutation and spread"
+            },
+            {
+              "prompt": "According to experts, how many people could superbugs kill annually by 2050?",
+              "options": ["1 million", "5 million", "10 million", "50 million"],
+              "correct_answer": "10 million"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "questions": [
+            {
+              "prompt": "What does 'dad bod' refer to?",
+              "options": ["A fatherly attitude", "A slightly overweight physique of middle-aged men", "Fashion for fathers", "Behavioral patterns of fathers"],
+              "correct_answer": "A slightly overweight physique of middle-aged men"
+            },
+            {
+              "prompt": "According to the research, what health benefits do men with 'dad bods' have?",
+              "options": [
+                "Increased muscle strength",
+                "Lower risk of heart attacks and prostate cancer",
+                "Longer life expectancy",
+                "Reduced mental stress"
+              ],
+              "correct_answer": "Lower risk of heart attacks and prostate cancer"
+            },
+            {
+              "prompt": "Who is behind this 'groundbreaking' research?",
+              "options": [
+                "A team of female researchers",
+                "A group of medical experts",
+                "A male researcher",
+                "The fitness industry"
+              ],
+              "correct_answer": "A male researcher"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "questions": [
+            {
+              "prompt": "According to the Philippine National Police, how many people have died in the drug crackdown since July 1, 2016?",
+              "options": [
+                "About 2,000",
+                "About 4,000",
+                "About 6,000",
+                "About 8,000"
+              ],
+              "correct_answer": "About 6,000"
+            },
+            {
+              "prompt": "How many deaths were reported to be from police operations?",
+              "options": [
+                "About 1,000",
+                "About 2,000",
+                "About 3,000",
+                "About 4,000"
+              ],
+              "correct_answer": "About 2,000"
+            },
+            {
+              "prompt": "What was Philippine Vice President Leni Robredo's previous occupation?",
+              "options": [
+                "Police officer",
+                "Human rights lawyer",
+                "Journalist",
+                "Doctor"
+              ],
+              "correct_answer": "Human rights lawyer"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "questions": [
+            {
+              "prompt": "What is the nationality of the company that replaced employees with AI?",
+              "options": [
+                "American",
+                "Chinese",
+                "Japanese",
+                "German"
+              ],
+              "correct_answer": "Japanese"
+            },
+            {
+              "prompt": "What AI platform did the company introduce?",
+              "options": [
+                "Google AI",
+                "IBM Watson",
+                "Microsoft Azure",
+                "Amazon Alexa"
+              ],
+              "correct_answer": "IBM Watson"
+            },
+            {
+              "prompt": "By what percentage does the company predict productivity will increase with AI?",
+              "options": [
+                "10%",
+                "20%",
+                "30%",
+                "40%"
+              ],
+              "correct_answer": "30%"
+            }
+          ]
+        }
+      ]
+    }
+  }

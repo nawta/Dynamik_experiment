@@ -1,0 +1,60 @@
+{
+  "name": "vue_jspsych_test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "rm -rf docs && vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jspsych-contrib/plugin-pipe": "^0.4.0",
+    "@jspsych/plugin-audio-keyboard-response": "^2.0.0",
+    "@jspsych/plugin-call-function": "^2.0.0",
+    "@jspsych/plugin-html-button-response": "^2.0.0",
+    "@jspsych/plugin-html-keyboard-response": "^2.0.0",
+    "@jspsych/plugin-preload": "^2.0.0",
+    "@jspsych/plugin-survey-html-form": "^2.0.0",
+    "@jspsych/plugin-survey-likert": "^2.0.0",
+    "@jspsych/plugin-survey-multi-choice": "^2.0.0",
+    "@jspsych/plugin-survey-text": "^2.0.0",
+    "@jspsych/plugin-video-keyboard-response": "^2.0.0",
+    "core-js": "^3.38.1",
+    "jspsych": "^7.3.4",
+    "terser-webpack-plugin": "^5.3.10",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "style-loader": "^4.0.0",
+    "webpack-obfuscator": "^3.5.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

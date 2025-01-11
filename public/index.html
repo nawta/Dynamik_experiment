@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Listening Comprehension Experiment</title>
+
+  <!-- jsPsych CSS -->
+   <!-- なんかvueへの移植の過程でimport Jspsychの書き方にしたら8になっとる．．．． -->
+  <link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css">
+
+  <!-- jsPsych core -->
+  <script src="https://unpkg.com/jspsych@7.3.4"></script>
+
+  <!-- jsPsych plugins -->
+  <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-text@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-multi-choice@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-audio-keyboard-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-video-keyboard-response@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-likert@1.1.2"></script>
+  <link href="https://unpkg.com/jspsych@7.3.4/css/jspsych.css" rel="stylesheet" type="text/css" />
+  <script src="https://unpkg.com/@jspsych/plugin-preload@1.1.2"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-survey-html-form@1.0.3"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-html-button-response@1.2.0"></script>
+  <script src="https://unpkg.com/@jspsych-contrib/plugin-pipe"></script>
+  <script src="https://unpkg.com/@jspsych/plugin-call-function@1.1.3"></script>
+
+  <!-- jsPsychSheet library -->
+  <script src="https://nawta.github.io/jsPsychSheet/jspsychsheet.js"></script>
+  <link rel="stylesheet" href="https://nawta.github.io/jsPsychSheet/jspsychsheet.css">
+
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Your experiment JavaScript file -->
+  <!-- <script src="experiment.js"></script> -->
+  <!-- <script type="module" src="experiment.js"></script> サーバの時はmodule属性として読み込む -->
+  <!-- <script src="dist/bundle.js"></script> -->
+
+  <style>
+    .option-button {
+      margin: 5px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+
+    .option-button.selected {
+      background-color: #4CAF50;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>
